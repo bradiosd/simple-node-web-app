@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "simple-server public 3000",
-    "start": "simple-server public 80"
+    "start": "simple-server public 80",
+    "deploy": "sh scripts/build.sh && sh scripts/deploy.sh"
   },
   "repository": {
     "type": "git",

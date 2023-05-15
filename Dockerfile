@@ -13,4 +13,3 @@ EXPOSE 80
 
 # NextJS application start
 CMD npm run start
-
